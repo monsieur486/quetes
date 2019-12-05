@@ -7,7 +7,7 @@
     <body>
       <trans-unit id="qMD7oaF" resname="Bienvenue !">
         <source>Bienvenue !</source>
-        <target>__Bienvenue !</target>
+        <target>Bienvenue !</target>
       </trans-unit>
     </body>
   </file>
