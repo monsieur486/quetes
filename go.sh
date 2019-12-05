@@ -9,3 +9,5 @@ php bin/console translation:update --force en --domain=messages
 yarn encore dev
 git add .
 git commit -m "$msg_branche"
+php bin/console doctrine:mapping:info
+php bin/console doctrine:schema:validate
