@@ -8,15 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class MainController extends AbstractController
 {
     /**
-     * @Route({
-     *     "fr": "/",
-     *     "en": "/welcome",
-     *     "de": "/willkommen",
-     *     "nl": "/welkom",
-     *     "es": "/bienvenida",
-     *     "it": "/benvenuto",
-     *     "pt": "/bem-vindo"
-     * }, name="home_page")
+     * @Route("/", name="mainPage_index")
      */
     public function index()
     {

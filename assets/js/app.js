@@ -6,11 +6,8 @@
  */
 
 const $ = require('jquery');
+global.$ = global.jQuery = $;
 
 require('bootstrap');
 require('../css/app.css');
 require('../css/global.scss');
-
-$(document).ready(function() {
-    $('[data-toggle="popover"]').popover();
-});
