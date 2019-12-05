@@ -1,4 +1,19 @@
 {
+    "composer/ca-bundle": {
+        "version": "1.2.4"
+    },
+    "composer/composer": {
+        "version": "1.9.1"
+    },
+    "composer/semver": {
+        "version": "1.5.0"
+    },
+    "composer/spdx-licenses": {
+        "version": "1.5.2"
+    },
+    "composer/xdebug-handler": {
+        "version": "1.4.0"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -90,11 +105,47 @@
     "egulias/email-validator": {
         "version": "2.1.11"
     },
+    "filp/whoops": {
+        "version": "2.5.0"
+    },
+    "gitonomy/gitlib": {
+        "version": "v1.1.0"
+    },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
+    "jean85/pretty-package-versions": {
+        "version": "1.2"
+    },
+    "justinrainbow/json-schema": {
+        "version": "5.2.9"
+    },
     "monolog/monolog": {
         "version": "1.25.2"
+    },
+    "nette/bootstrap": {
+        "version": "v3.0.1"
+    },
+    "nette/di": {
+        "version": "v3.0.1"
+    },
+    "nette/finder": {
+        "version": "v2.5.1"
+    },
+    "nette/neon": {
+        "version": "v3.0.0"
+    },
+    "nette/php-generator": {
+        "version": "v3.3.1"
+    },
+    "nette/robot-loader": {
+        "version": "v3.2.0"
+    },
+    "nette/schema": {
+        "version": "v1.0.1"
+    },
+    "nette/utils": {
+        "version": "v3.0.2"
     },
     "nikic/php-parser": {
         "version": "v4.3.0"
@@ -104,6 +155,9 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.2.3"
+    },
+    "pdepend/pdepend": {
+        "version": "2.5.2"
     },
     "php": {
         "version": "7.3"
@@ -117,6 +171,18 @@
     "phpdocumentor/type-resolver": {
         "version": "1.0.1"
     },
+    "phpmd/phpmd": {
+        "version": "2.7.0"
+    },
+    "phpro/grumphp": {
+        "version": "v0.15.2"
+    },
+    "phpstan/phpdoc-parser": {
+        "version": "0.3.5"
+    },
+    "phpstan/phpstan": {
+        "version": "0.11.19"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -129,6 +195,12 @@
     "psr/log": {
         "version": "1.1.2"
     },
+    "seld/jsonlint": {
+        "version": "1.7.2"
+    },
+    "seld/phar-utils": {
+        "version": "1.0.1"
+    },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
         "recipe": {
@@ -140,6 +212,15 @@
         "files": [
             "config/packages/sensio_framework_extra.yaml"
         ]
+    },
+    "squizlabs/php_codesniffer": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "0dc9cceda799fd3a08b96987e176a261028a3709"
+        }
     },
     "symfony/apache-pack": {
         "version": "1.0",
