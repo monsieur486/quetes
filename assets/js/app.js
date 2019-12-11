@@ -8,6 +8,11 @@
 const $ = require('jquery');
 global.$ = global.jQuery = $;
 
-require('bootstrap');
+import UIkit from 'uikit';
+import Icons from 'uikit/dist/js/uikit-icons';
+
+// loads the Icon plugin
+UIkit.use(Icons);
+
 require('../css/app.css');
 require('../css/global.scss');

@@ -4,3 +4,4 @@ controllers:
     prefix:
         fr: ''
         en: '/en'
+        de: '/de'
