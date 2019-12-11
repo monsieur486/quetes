@@ -3,3 +3,5 @@
 /vendor/
 .idea/
 /.env.local
+/public/build/
+.phpcs-cache
